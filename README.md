@@ -3,5 +3,5 @@
 vue3 + vite 项目模版
 
 ```
-npx degit user/project my-project
+npx degit https://github.com/suozhao/vite-template my-project
 ```
