@@ -1,0 +1,15 @@
+{
+  "overrides": [
+    {
+      "files": ".prettierrc",
+      "options": { "parser": "json" }
+    },
+    {
+      "files": "*.{css,sass,scss,less}",
+      "options": { "parser": "css", "tabWidth": 2 }
+    }
+  ],
+  "semi": false,
+  "singleQuote": true,
+  "printWidth": 80
+}

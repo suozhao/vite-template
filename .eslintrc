@@ -1,0 +1,38 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "ignorePatterns": [
+    "node_modules/*",
+    "*.css",
+    "*.scss",
+    "*.sass",
+    "*.less",
+    "*.styl"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:markdown/recommended",
+    "plugin:vue/vue3-recommended",
+    "prettier",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": ["html"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "semi": false,
+        "tabWidth": 2,
+        "overrides": [
+          {
+            "files": "*.{css,sass,scss,less}",
+            "options": { "parser": "css", "tabWidth": 2 }
+          }
+        ]
+      }
+    ]
+  }
+}
